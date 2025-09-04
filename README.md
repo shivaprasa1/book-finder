@@ -1,12 +1,63 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📚 Book Finder App
 
-Currently, two official plugins are available:
+A simple React application for searching books using the **Open Library API**.  
+Built as part of an assignment for Alex (college student persona).  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search books by:
+  - Title
+  - Author
+  - ISBN
+  - Subject
+  - Free text
+- Book covers displayed (via Open Library cover API).
+- Pagination support.
+- Sort by title or year.
+- View book details in a modal.
+- Favorite books (saved to localStorage).
+- Simple, clean UI using Tailwind CSS.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React (Vite)**
+- **Tailwind CSS (CDN)**
+- **Open Library Search API**:  
+  `https://openlibrary.org/search.json?title={bookTitle}`
+---
+
+##👨‍💻 Author
+---
+Developed by Shiva Prasad R.
+Using React + Open Library API.
+
+##🌍 Deployment
+---
+Can be deployed on StackBlitz / CodeSandbox easily.
+Or push to GitHub and deploy on Netlify or Vercel (free).
+
+## 📦 Installation & Setup
+```
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/book-finder.git
+cd book-finder
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+#The app will be available at 👉 http://localhost:5173 ```
+
+
+
+
+
+
+
